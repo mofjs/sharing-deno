@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MoF.JS - Sharing Session Deno</title>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>MoF.JS Sharing Session Deno</h1>
+				<p>Diskusi dan perkenalan tentang Deno.</p>
+			</section>
+			<section data-markdown="intro.md"></section>
+			<section data-markdown="deno.md"></section>
+			<section data-markdown="deploy.md"></section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown]
+		});
+	</script>
+</body>
+
+</html>
